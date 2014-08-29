@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+
+        <title>Hello World</title>
+        <Style>
+            .redText {
+                border-left: 10px solid rgb(194, 58, 43);
+            }
+        
+        .greenText {
+            border-left: 10px solid rgb(124, 209, 100);
+        }
+        
+        .awayNav {
+            border-left: 10px solid rgb(255, 210, 0);
+        }
+        .clickable-div
+        {
+            cursor: pointer;
+        }
+        .custom-well {
+            min-height: 60px;
+            padding: 17px;
+            margin-bottom: 2px;
+            background-color: #ffffff;
+            border: 1px solid #e3e3e3;
+            /*-webkit-border-radius: 4px;
+             -moz-border-radius: 4px;
+             border-radius: 4px;*/
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+            -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+        }
+        ul
+        {
+            list-style-type: none;
+        }
+        a{
+        color: black;
+        }
+        .container {
+            width: 1278px;
+        }
+        html,body {
+            height:100%;  /* new */
+        }
+        
+        ul#navigation {
+            height: 45px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ccc;
+            border-width: 1px 0;
+            text-align: center;
+            font-size: 14px;
+            font-family: 'Cham-WebFont', Arial, sans-serif;
+            background-color: #FFF;
+            position: fixed;   /* new */
+            bottom: 0;  /* new */
+            width: 100%;  /* new */
+            position: fixed;
+            background-color: #8b8989;
+        }
+        
+        ul#navigation li {
+            display: inline;
+            margin-right: .75em;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul#navigation li.last {
+            margin-right: 0;
+        }
+        .slick-box {
+            position: relative;
+            height: 50px;
+            border: 1px solid #efefef;
+            background: #fff;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+        }
+        
+        .slick-box:before, .slick-box:after {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            width: 70%;
+            max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
+            height: 55%;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transform: skew(-15deg) rotate(-6deg);
+        }
+        
+        .slick-box:after {
+            left: auto;
+            right: 10px;
+            transform: skew(15deg) rotate(6deg);                 
+        }
+        </style>
+    </head>
+    <body onload="bodyOnLoad()" >
+        <div class="app" style="display:none;">
+            <h1>PhoneGap</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+
+        <div class="container" style = "margin-top:22px; width : 100%;">
+            
+            <div>
+                <div class="tab-content"  style= "margin-top: 10px;">
+                    <div class="tab-pane" id="helpdeskTicketList" style="overflow:auto; height: 495px;"></div>
+                    
+                    <div class="tab-pane active" id="panel-783722">
+                        <div id="home">
+                            <div id="app-status-div">
+                                <ul id="app-status-ul">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="panel-783723"></div>
+                    <div class="tab-pane active" id="panel-783724"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+      <!--  <nav class="tab-bar">
+            <ul>
+                <li class="tab-item active">
+                    <a href="#">
+                        <span class="icon icon-app-square"></span>
+                        <div class="tab-label">Tab label</div>
+                    </a>
+                </li>
+                <li class="tab-item">
+                    <a href="#">
+                        <span class="icon icon-app-square"><span class="notification">3</span></span>
+                        <div class="tab-label">Tab label</div>
+                    </a>
+                </li>
+            </ul>
+        </nav> -->
+
+      <div id="MenuContainer" class="tabbable">
+          <ul id="navigation" class="nav nav-tabs">
+              <li class="x"><a type="button" href="#helpdeskTicketList" data-toggle="tab" id = "getRequestButton" title="Alerts" >Alerts</a></li>
+              <li class="x"><a data-toggle="tab" title="My" href="#panel-783722">My</a></li>
+              <li class="x"><a data-toggle="tab" title="P1" href="#panel-783723">P1</a></li>
+              <li class="x"><a data-toggle="tab" title="P2" href="#" >P2</a></li>
+              <li class="contact" class="last"><a data-toggle="tab" title="Call" href="#" >Call</a></li>
+          </ul>
+          
+      </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery-1.11.1.js"></script>
+        <script type="text/javascript">
+
+            app.initialize();
+            function bodyOnLoad(){
+                alert("Loaded");
+                document.addEventListener("deviceready", onDeviceReady, false);
+            }
+        </script>
+        <script type="text/javascript" src="js/PushNotification.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+            var pushNotification;
+            
+            function onDeviceReady() {
+                alert("onDeviceReady");
+                $("#app-status-ul").append('<li>deviceready event received</li>');
+                
+				document.addEventListener("backbutton", function(e)
+                                          {
+                                          $("#app-status-ul").append('<li>backbutton event received</li>');
+                                          
+                                          if( $("#home").length > 0)
+                                          {
+                                          // call this to get a new token each time. don't call it to reuse existing token.
+                                          //pushNotification.unregister(successHandler, errorHandler);
+                                          e.preventDefault();
+                                          navigator.app.exitApp();
+                                          }
+                                          else
+                                          {
+                                          navigator.app.backHistory();
+                                          }
+                                          }, false);
+                                          
+                                          try
+                                          {
+                                              pushNotification = window.plugins.pushNotification;
+                                              $("#app-status-ul").append('<li>registering ' + device.platform + '</li>');
+                                              if (device.platform == 'android' || device.platform == 'Android' ||
+                                                  device.platform == 'amazon-fireos' ) {
+                                                  pushNotification.register(successHandler, errorHandler, {"senderID":"661780372179","ecb":"onNotification"});		// required!
+                                              } else {
+                                                  pushNotification.register(tokenHandler, errorHandler, {"badge":"true","sound":"true","alert":"true","ecb":"onNotificationAPN"});	// required!
+                                              }
+                                          }
+                                          catch(err)
+                                          {
+                                              txt="There was an error on this page.\n\n";
+                                              txt+="Error description: " + err.message + "\n\n";
+                                              alert(txt);
+                                          }
+            }
+        
+        // handle APNS notifications for iOS
+        function onNotificationAPN(e) {
+            if (e.alert) {
+                $("#app-status-ul").append('<li>push-notification: ' + e.alert + '</li>');
+                // showing an alert also requires the org.apache.cordova.dialogs plugin
+                navigator.notification.alert(e.alert);
+            }
+            
+            if (e.sound) {
+                // playing a sound also requires the org.apache.cordova.media plugin
+                var snd = new Media(e.sound);
+                snd.play();
+            }
+            
+            if (e.badge) {
+                pushNotification.setApplicationIconBadgeNumber(successHandler, e.badge);
+            }
+        }
+        
+        // handle GCM notifications for Android
+        function onNotification(e) {
+            $("#app-status-ul").append('<li>EVENT -> RECEIVED:' + e.event + '</li>');
+            
+            switch( e.event )
+            {
+                case 'registered':
+                if ( e.regid.length > 0 )
+                {
+                    $("#app-status-ul").append('<li>REGISTERED -> REGID:' + e.regid + "</li>");
+                    // Your GCM push server needs to know the regID before it can push to this device
+                    // here is where you might want to send it the regID for later use.
+                    console.log("regID = " + e.regid);
+                }
+                break;
+                
+                case 'message':
+                // if this flag is set, this notification happened while we were in the foreground.
+                // you might want to play a sound to get the user's attention, throw up a dialog, etc.
+                if (e.foreground)
+                {
+                    $("#app-status-ul").append('<li>--INLINE NOTIFICATION--' + '</li>');
+                    
+                    // on Android soundname is outside the payload.
+                    // On Amazon FireOS all custom attributes are contained within payload
+                    var soundfile = e.soundname || e.payload.sound;
+                    // if the notification contains a soundname, play it.
+                    // playing a sound also requires the org.apache.cordova.media plugin
+                    var my_media = new Media("/android_asset/www/"+ soundfile);
+                    
+                    my_media.play();
+                }
+                else
+                {	// otherwise we were launched because the user touched a notification in the notification tray.
+                    if (e.coldstart)
+                    $("#app-status-ul").append('<li>--COLDSTART NOTIFICATION--' + '</li>');
+                    else
+                    $("#app-status-ul").append('<li>--BACKGROUND NOTIFICATION--' + '</li>');
+                }
+                
+                $("#app-status-ul").append('<li>MESSAGE -> MSG: ' + e.payload.message + '</li>');
+                //android only
+                $("#app-status-ul").append('<li>MESSAGE -> MSGCNT: ' + e.payload.msgcnt + '</li>');
+                //amazon-fireos only
+                $("#app-status-ul").append('<li>MESSAGE -> TIMESTAMP: ' + e.payload.timeStamp + '</li>');
+                break;
+                
+                case 'error':
+                $("#app-status-ul").append('<li>ERROR -> MSG:' + e.msg + '</li>');
+                break;
+                
+                default:
+                $("#app-status-ul").append('<li>EVENT -> Unknown, an event was received and we do not know what it is</li>');
+                break;
+            }
+        }
+        
+        function tokenHandler (result) {
+            //$("#app-status-ul").append('<li>token: '+ result +'</li>');
+            // Your iOS push server needs to know the token before it can push to this device
+            // here is where you might want to send it the token for later use.
+            alert(result);
+            $.ajax({
+                   type: 'GET',
+                   url: 'http://t-mobileapps-01:50080/HelpdeskApp/sendToken?token='+result,
+                   //dataType: 'jsonp',
+                   //crossDomain: true,
+                   
+                   success: function(result){
+                   console.log('success  '+result[0].name);
+                   result.forEach(function(item){
+                                  
+                                  handleSingleTicket(item);}
+                                  );
+                   }
+                   
+                   });
+
+
+        }
+        
+        function successHandler (result) {
+            $("#app-status-ul").append('<li>success:'+ result +'</li>');
+        }
+        
+        function errorHandler (error) {
+            $("#app-status-ul").append('<li>error:'+ error +'</li>');
+        }
+        
+        //document.addEventListener('deviceready', onDeviceReady, true);
+        
+            </script>
+		<script type="text/javascript" >
+            function handleSingleTicket(result){
+                //$("helpdeskTicketList").html($("<p></p>").html(result);
+                console.log(result);
+                console.log("criticality is "+result.criticality);
+                var addthisclass='';
+                if (result.criticality == "Critical" || result.criticality == "High"){
+                    addthisclass = "redText";
+                }else if (result.criticality == "Low"){
+                    addthisclass = "greenText" ;
+                }else if (result.criticality == "Medium"){
+                    addthisclass = "awayNav";
+                }
+                
+                $("#helpdeskTicketList").append("<div data-role='listview' data-inset='true' class="+addthisclass+"><div class = 'margin-bottom custom-well slick-box'><a href='#'>"+result.name+" </a></div></div><br>");
+                
+            }
+        //$('span').bind( "touchstart", function(e){alert('Span Clicked!')});
+        $("#getRequestButton").click(function() {
+                                     if($('#helpdeskTicketList').html().length>0){
+                                     }else{
+                                     $.ajax({
+                                            type: 'GET',
+                                            url: 'http://t-mobileapps-01:50080/HelpdeskApp/getHelpdeskTickets',
+                                            //dataType: 'jsonp',
+                                            //crossDomain: true,
+                                            
+                                            success: function(result){
+                                            console.log('success  '+result[0].name);
+                                            result.forEach(function(item){
+                                                           
+                                                           handleSingleTicket(item);}
+                                                           );
+                                            }
+                                            
+                                            });
+                                     }
+                                     });
+                                     
+            </script>
+
+    </body>
+</html>

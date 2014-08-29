@@ -1,0 +1,816 @@
+THelloWorld
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+cCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+cCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+cCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+cCopyStringsFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib
+cCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+cCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+cCopyStringsFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+cCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+cCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+cCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+cCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+cCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+cProcessPCH /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+cGenerateDSYMFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+cTouch /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534857420000000000000198
+t1397249858
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053285A6300000000000003B4
+t1395153507
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053285A6B000000000000019E
+t1395153515
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000053285A6C0000000000059340
+t1395153516
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005348570A0000000000446820
+t1397249802
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053285A6D00000000000F1A80
+t1395153517
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053285A7000000000001BE790
+t1395153520
+s1828752
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m
+c0000000053F26E8E000000000000176F
+t1408396942
+s5999
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m
+c0000000053F26E8E000000000000126B
+t1408396942
+s4715
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib
+c0000000053F26E8D0000000000001759
+t1408396941
+s5977
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist
+c0000000053F26E8F0000000000000A15
+t1408396943
+s2581
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+c0000000053F26E8E00000000000003C5
+t1408396942
+s965
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings
+c0000000053F26E8D00000000000004C0
+t1408396941
+s1216
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings
+c0000000053F26E8D00000000000004AB
+t1408396941
+s1195
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-40.png
+c0000000053F26E8D0000000000000FF2
+t1408396941
+s4082
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png
+c0000000053F26E8D0000000000001CF3
+t1408396941
+s7411
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-50.png
+c0000000053F26E8D000000000000130A
+t1408396941
+s4874
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png
+c0000000053F26E8D000000000000258B
+t1408396941
+s9611
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-60.png
+c0000000053F26E8D00000000000016B3
+t1408396941
+s5811
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png
+c0000000053F26E8D0000000000002E94
+t1408396941
+s11924
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-72.png
+c0000000053F26E8D0000000000001350
+t1408396941
+s4944
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png
+c0000000053F26E8D0000000000002DBA
+t1408396941
+s11706
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-76.png
+c0000000053F26E8D0000000000001B71
+t1408396941
+s7025
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png
+c0000000053F26E8D0000000000003B9E
+t1408396941
+s15262
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-small.png
+c0000000053F26E8D0000000000000CDE
+t1408396941
+s3294
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png
+c0000000053F26E8D00000000000015E8
+t1408396941
+s5608
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon.png
+c0000000053F26E8D0000000000000F3E
+t1408396941
+s3902
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon@2x.png
+c0000000053F26E8D0000000000001EBD
+t1408396941
+s7869
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png
+c0000000053F26E8D00000000000085B1
+t1408396941
+s34225
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053F26E8D0000000000033D0A
+t1408396941
+s212234
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png
+c0000000053F26E8D00000000000166A2
+t1408396941
+s91810
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053F26E8D0000000000033F7C
+t1408396941
+s212860
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png
+c0000000053F26E8D0000000000016641
+t1408396941
+s91713
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png
+c0000000053F26E8D0000000000007323
+t1408396941
+s29475
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png
+c0000000053F26E8D000000000000289A
+t1408396941
+s10394
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m
+c0000000053F26E8E000000000000045C
+t1408396942
+s1116
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+t1408396960
+s77400
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+c0000000053F26E9300000000000001CE
+t1408396947
+s462
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+t1408396960
+s51576
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+t1408396960
+s2988
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+c0000000053F26E93000000000000002D
+t1408396947
+s45
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app
+t1408396961
+s1020
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM
+t2
+s0
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+t1408396947
+s34225
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+t1408396947
+s212234
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+t1408396947
+s91810
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+t1408396947
+s212860
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+t1408396947
+s91713
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png
+t1408396947
+s29475
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png
+t1408396947
+s10394
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+t1408396961
+s277232
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+t1408396947
+s1281
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib
+t1408396960
+s836
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/PkgInfo
+t2
+s0
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+t1408396947
+s280
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+t1408396947
+s166
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-40.png
+t1408396947
+s4082
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png
+t1408396947
+s7411
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-50.png
+t1408396947
+s4874
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png
+t1408396947
+s9611
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-60.png
+t1408396947
+s5811
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png
+t1408396947
+s11924
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-72.png
+t1408396947
+s4944
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png
+t1408396947
+s11706
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-76.png
+t1408396947
+s7025
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png
+t1408396947
+s15262
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-small.png
+t1408396947
+s3294
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png
+t1408396947
+s5608
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon.png
+t1408396947
+s3902
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png
+t1408396947
+s7869
+
+N/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/libCordova.a
+c0000000053F26E9300000000000D4420
+t1408396947
+s869408
+
+N/var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch
+t1408396960
+s5376780
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc11e9b13a6a2b941^88649c13a6a2b941^---0#1#1#--18"Check dependencies36"286D1D90-78BC-48F8-8930-D0606E4408F8-
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430089760.820993
+e430089760.945713
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m221"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc174d220a6a2b941^931af220a6a2b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m0000000000000000^3927"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/usr/local/lib/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/UninstalledProducts/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -include /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.dia -c /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/AppDelegate.m -o /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o36"55AFA298-EC79-4D0C-BA1D-9F2EC082DA23-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430089760.821725
+e430089760.945286
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m235"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler90a2d220a6a2b941^97fef120a6a2b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m0000000000000000^3969"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/usr/local/lib/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/UninstalledProducts/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -include /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.dia -c /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.m -o /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o36"D37B229A-2E2A-47AC-84BA-D534524F74BF-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430089760.820439
+e430089760.894677
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m199"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0134d220a6a2b941^f209e520a6a2b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m0000000000000000^3869"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/usr/local/lib/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/UninstalledProducts/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -include /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.dia -c /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/main.m -o /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o36"C0D3DA65-E9AD-4A6A-8443-C2562CEA7A23-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCompileXIB /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib
+s430089747.820633
+e430089760.417262
+r1
+xCompileXIB
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib
+o2014-08-18 14:22:39.360 Interface Builder Cocoa Touch Tool[7218:303] CFPreferences: user home directory at file:///Users/nisheethjoshi/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compiling /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib68"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m232cd213a6a2b941^f2d16a20a6a2b941^-237"2014-08-18 14:22:39.360 Interface Builder Cocoa Touch Tool[7218:303] CFPreferences: user home directory at file:///Users/nisheethjoshi/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib0000000000000000^879"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Classes/MainViewController.xib36"8D8F331A-4D72-4B49-AAC8-C564B7CD0CFA-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCopyStringsFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+s430089747.822847
+e430089747.881479
+r1
+xCopyStringsFile
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+xHelloWorld/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/de.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings59bed213a6a2b941^7bbfe113a6a2b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings0000000000000000^667"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/de.lproj -- HelloWorld/Resources/de.lproj/Localizable.strings36"82D7A975-B84D-4B5F-94D0-40B1E4B18990-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCopyStringsFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+s430089747.819937
+e430089747.881250
+r1
+xCopyStringsFile
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+xHelloWorld/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/en.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings5c04d213a6a2b941^3d9be113a6a2b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings0000000000000000^667"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/en.lproj -- HelloWorld/Resources/en.lproj/Localizable.strings36"E4435848-3B26-4FDE-B559-C56510280BBC-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+s430089747.828719
+e430089747.829479
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40.png
+xbuild/emulator/HelloWorld.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-40.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.pngef39d413a6a2b941^4359d413a6a2b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-40.png003468ebdcffdf42^691"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-40.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"734EFF2E-347D-4BDE-B2A0-4EF19283060E-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+s430089747.818024
+e430089747.819439
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40@2x.png
+xbuild/emulator/HelloWorld.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-40@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png4582d113a6a2b941^6dcad113a6a2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png003468ebdcffdf42^700"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"4248213A-5B70-4419-89C8-AB9FA41FC81A-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+s430089747.821185
+e430089747.822610
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50.png
+xbuild/emulator/HelloWorld.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-50.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png014fd213a6a2b941^7499d213a6a2b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-50.png003468ebdcffdf42^691"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-50.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"AB2BB115-E12D-4963-AFA4-1000F4366552-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+s430089747.832573
+e430089747.833224
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50@2x.png
+xbuild/emulator/HelloWorld.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-50@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png3c33d513a6a2b941^054fd513a6a2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png003468ebdcffdf42^700"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"266F1143-871C-4A45-BF7F-020C584C4BCF-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+s430089747.830400
+e430089747.831002
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60.png
+xbuild/emulator/HelloWorld.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-60.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png12a2d413a6a2b941^55bdd413a6a2b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-60.png003468ebdcffdf42^691"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-60.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"1C30B2D9-78CA-4054-94B1-553617632489-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+s430089747.821608
+e430089747.822619
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60@2x.png
+xbuild/emulator/HelloWorld.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-60@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png546ed213a6a2b941^b29ed213a6a2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png003468ebdcffdf42^700"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"F38AB310-D1F6-4661-9358-CA1066702694-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+s430089747.818185
+e430089747.819769
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72.png
+xbuild/emulator/HelloWorld.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-72.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png228ad113a6a2b941^b9e3d113a6a2b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-72.png003468ebdcffdf42^691"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-72.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"C59401F9-3346-439C-A8D4-39790A757C09-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+s430089747.834138
+e430089747.834755
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72@2x.png
+xbuild/emulator/HelloWorld.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-72@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png7995d513a6a2b941^18b3d513a6a2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png003468ebdcffdf42^700"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"CBCEAB70-A8C3-4F57-B2B8-4E8CB4FCB56B-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+s430089747.817842
+e430089747.819046
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76.png
+xbuild/emulator/HelloWorld.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-76.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.pngad6ed113a6a2b941^6cafd113a6a2b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-76.png003468ebdcffdf42^691"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-76.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"63AB8D35-BF6E-406A-8B4B-1D1D1DE8668D-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+s430089747.833373
+e430089747.834013
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76@2x.png
+xbuild/emulator/HelloWorld.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-76@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png9963d513a6a2b941^0282d513a6a2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png003468ebdcffdf42^700"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"924170D8-593D-4835-9A61-207CB32BB4DB-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+s430089747.823043
+e430089747.824067
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small.png
+xbuild/emulator/HelloWorld.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-small.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png86c7d213a6a2b941^73f6d213a6a2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-small.png003468ebdcffdf42^700"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-small.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"F6CE6A3F-CB16-44A7-97CB-2534B0A2BEA7-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+s430089747.827061
+e430089747.827757
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small@2x.png
+xbuild/emulator/HelloWorld.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/HelloWorld.app/icon-small@2x.png111"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.pngefc9d313a6a2b941^79e8d313a6a2b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png003468ebdcffdf42^709"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"93C5934B-4E27-4642-90CA-A0AEDF023054-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+s430089747.818967
+e430089747.820219
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon.png
+xbuild/emulator/HelloWorld.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/HelloWorld.app/icon.png93"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.pngbabcd113a6a2b941^bc05d213a6a2b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon.png003468ebdcffdf42^682"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"96D8332E-086F-475A-8DAA-9BE4418930E8-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+s430089747.819563
+e430089747.821213
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon@2x.png
+xbuild/emulator/HelloWorld.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon@2x.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png49f5d113a6a2b941^9339d213a6a2b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png003468ebdcffdf42^691"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/icons/icon@2x.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"64622DD3-97EC-4CEF-A9A9-2C8D3F8824AF-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+s430089747.831823
+e430089747.832433
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-568h@2x~iphone.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png76ffd413a6a2b941^501bd513a6a2b941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png003468ebdcffdf42^738"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"5A41B2DA-6E4C-4219-B2B7-78A96D9A588B-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+s430089747.824214
+e430089747.825152
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png136"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png9415d313a6a2b941^7d3dd313a6a2b941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png003468ebdcffdf42^747"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"12267F41-EEC5-44D0-B860-3273A2B56652-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+s430089747.825280
+e430089747.826001
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-Landscape~ipad.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png5053d313a6a2b941^4375d313a6a2b941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png003468ebdcffdf42^738"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"EF72E766-CD37-433E-A2F7-DCE6D43AED45-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+s430089747.826128
+e430089747.826937
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png134"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.pngac8bd313a6a2b941^68b2d313a6a2b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png003468ebdcffdf42^744"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"6BF03004-84F8-44A4-A362-49D7604EFFC0-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+s430089747.827880
+e430089747.828599
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/HelloWorld.app/Default-Portrait~ipad.png128"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png0000d413a6a2b941^641fd413a6a2b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png003468ebdcffdf42^735"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"46FD4061-7254-4745-A146-CE9093377CB6-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+s430089747.829597
+e430089747.830249
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/HelloWorld.app/Default@2x~iphone.png120"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.pngac6fd413a6a2b941^ca8bd413a6a2b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png003468ebdcffdf42^723"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"63C86109-C714-4956-A6E7-12F2BA1878EE-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+s430089747.831126
+e430089747.831713
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default~iphone.png
+xbuild/emulator/HelloWorld.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/HelloWorld.app/Default~iphone.png114"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png52d1d413a6a2b941^abebd413a6a2b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png003468ebdcffdf42^714"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"EE7002A0-1F23-42D9-AAC7-437D9D12D019-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CGenerateDSYMFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+s430089761.116687
+e430089761.275974
+r1
+xGenerateDSYMFile
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM108"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorldafed1d21a6a2b941^63b44621a6a2b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM003468ebdcffdf42^698"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld -o /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app.dSYM36"3B2A5667-D88D-46D2-A9BB-0F80682487A9-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CLd /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+s430089760.947091
+e430089761.115621
+r1
+xLd
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+xnormal
+xi386
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld63"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i386c287f220a6a2b941^bb991d21a6a2b941^---0#0#1#--1811"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i386    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -F/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -filelist /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld_dependency_info.dat -o /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/HelloWorld36"79B5AAC1-0E8B-4D0E-A0A8-99F374EC7878-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CPhaseScriptExecution Copy\ www\ directory /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+s430089747.615700
+e430089747.817422
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.183s
+ouser	0m0.074s
+osys	0m0.108s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'146"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.shf8fb9d13a6a2b941^f642d113a6a2b941^-42"real	0m0.183suser	0m0.074ssys	0m0.108s3(21%IDEActivityLogMessage2@14"real	0m0.183s-430089747#1#14#-0#-----2@14"user	0m0.074s-430089747#15#14#-0#-----2@13"sys	0m0.108s-430089747#29#13#-0#-----0#0#1#--382"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    /bin/sh -c /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh36"59BD8271-439A-401F-ACD7-E28D4E0E5876-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CProcessInfoPlistFile /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist
+s430089747.611727
+e430089747.613885
+r1
+xProcessInfoPlistFile
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Process /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist110"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m96b29c13a6a2b941^5b289d13a6a2b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist0000000000000000^797"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Info.plist -genpkginfo /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app/Info.plist36"F5D3FBE2-3B87-42A9-8C25-267F0AF26842-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CProcessPCH /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430089760.418483
+e430089760.818530
+r1
+xProcessPCH
+x/var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch
+xHelloWorld/HelloWorld-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloWorld/HelloWorld-Prefix.pch310"[1mProcessPCH[0m /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8d416b20a6a2b941^048dd120a6a2b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Prefix.pch0000000000000000^3934"[1mProcessPCH[0m /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/usr/local/lib/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/UninstalledProducts/include -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/nisheethjoshi/development/plugintest/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator --serialize-diagnostics /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.d -c /Users/nisheethjoshi/development/plugintest/platforms/ios/HelloWorld/HelloWorld-Prefix.pch -o /var/folders/y8/g_lp65fx3w5935l4_9ll5yz00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-dyrvuzjxyvpfvjbrzxwbcpgyzgom/HelloWorld-Prefix.pch.pch36"A1BC03EC-6DD7-4E66-955E-750DA0274F0F-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
+CTouch /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app
+s430089761.277557
+e430089761.281318
+r1
+xTouch
+x/Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app43"[1mTouch[0m build/emulator/HelloWorld.app8b1b4721a6a2b941^ea044821a6a2b941^---0#0#1#--448"[1mTouch[0m build/emulator/HelloWorld.app    cd /Users/nisheethjoshi/development/plugintest/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/nisheethjoshi/development/plugintest/platforms/ios/build/emulator/HelloWorld.app36"B3D3E755-EB0C-44E7-9099-3BA00AB59DDD-
+bB87F7F29-750F-49CE-B4AE-23978CFB1F5D
+
